@@ -1,0 +1,127 @@
+[
+  {
+    "text": "amlodipine 10 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "308135"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      56,
+      81
+    ]
+  },
+  {
+    "text": "aspirin 81 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "243670"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      85,
+      107
+    ]
+  },
+  {
+    "text": "metoprolol succinate xl 50 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "866436"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      111,
+      149
+    ]
+  },
+  {
+    "text": "guaifenesin ml po q6h:prn",
+    "type": "THUỐC",
+    "candidates": [
+      "392085"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      153,
+      178
+    ]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      188,
+      190
+    ]
+  },
+  {
+    "text": "acetaminophen 325-650 mg po q6h:prn",
+    "type": "THUỐC",
+    "candidates": [
+      "313782"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      194,
+      229
+    ]
+  },
+  {
+    "text": "sốt đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      239,
+      246
+    ]
+  },
+  {
+    "text": "pravastatin 40 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "904475"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      250,
+      276
+    ]
+  },
+  {
+    "text": "clonazepam 0.5 mg po qam:prn",
+    "type": "THUỐC",
+    "candidates": [
+      "197527"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      280,
+      308
+    ]
+  },
+  {
+    "text": "lo âu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      318,
+      323
+    ]
+  }
+]

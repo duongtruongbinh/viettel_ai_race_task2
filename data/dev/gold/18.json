@@ -1,0 +1,95 @@
+[
+  {
+    "text": "lisinopril 20 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "314077"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      30,
+      55
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      65,
+      78
+    ]
+  },
+  {
+    "text": "atorvastatin 40 mg po qhs",
+    "type": "THUỐC",
+    "candidates": [
+      "617311"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      81,
+      106
+    ]
+  },
+  {
+    "text": "metformin 1000 mg po bid",
+    "type": "THUỐC",
+    "candidates": [
+      "861004"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      109,
+      133
+    ]
+  },
+  {
+    "text": "đái tháo đường type 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      143,
+      164
+    ]
+  },
+  {
+    "text": "furosemide 40 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "313988"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      167,
+      192
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      202,
+      205
+    ]
+  }
+]

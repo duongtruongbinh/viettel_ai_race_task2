@@ -1,0 +1,25 @@
+# Improved: baseline + a local LLM (Qwen3-8B) that reranks the retrieved
+# candidates (retrieve-then-rerank). Retrieval places the correct code in the
+# top-k but not always at rank 1; the LLM picks the exact one, constrained to
+# the retrieved codes so it can never hallucinate an invalid code.
+#
+# load_in_4bit fits the 8B model in ~6 GB so it runs on a free Colab T4. For a
+# full-precision run on the submission GPU, set load_in_4bit: false and
+# device: wait (min_free_gb: 18).
+extends: baseline.yaml
+solution: improved
+
+llm:
+  model: /mnt/pretrained_fm/Qwen_Qwen3-8B   # or Qwen/Qwen3-8B (downloads from the Hub)
+  device: auto
+  dtype: bfloat16
+  load_in_4bit: true
+  min_free_gb: 6.0
+  enable_thinking: false
+
+normalization:
+  llm_rerank:
+    retrieve_k: 20                # feed the LLM a wider candidate list
+    max_candidates:
+      ICD10: 2
+      RXNORM: 1

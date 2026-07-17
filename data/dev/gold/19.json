@@ -1,0 +1,88 @@
+[
+  {
+    "text": "sụt cân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      21,
+      28
+    ]
+  },
+  {
+    "text": "hồi hộp",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      30,
+      37
+    ]
+  },
+  {
+    "text": "run tay",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      39,
+      46
+    ]
+  },
+  {
+    "text": "sợ nóng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      48,
+      55
+    ]
+  },
+  {
+    "text": "cường giáp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E05.9"
+    ],
+    "assertions": [],
+    "position": [
+      68,
+      78
+    ]
+  },
+  {
+    "text": "bệnh Basedow",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E05.0"
+    ],
+    "assertions": [
+      "isFamily",
+      "isHistorical"
+    ],
+    "position": [
+      105,
+      117
+    ]
+  },
+  {
+    "text": "methimazole 10 mg po tid",
+    "type": "THUỐC",
+    "candidates": [
+      "197941"
+    ],
+    "assertions": [],
+    "position": [
+      154,
+      178
+    ]
+  },
+  {
+    "text": "lồi mắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      186,
+      193
+    ]
+  }
+]

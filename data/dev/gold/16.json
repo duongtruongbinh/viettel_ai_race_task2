@@ -1,0 +1,79 @@
+[
+  {
+    "text": "yếu nửa người trái",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      19,
+      37
+    ]
+  },
+  {
+    "text": "nói khó",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      41,
+      48
+    ]
+  },
+  {
+    "text": "đau đầu",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      71,
+      78
+    ]
+  },
+  {
+    "text": "co giật",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      86,
+      93
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      101,
+      104
+    ]
+  },
+  {
+    "text": "đột quỵ thiếu máu não cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I63.9"
+    ],
+    "assertions": [],
+    "position": [
+      117,
+      142
+    ]
+  },
+  {
+    "text": "aspirin 81 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "243670"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      152,
+      174
+    ]
+  }
+]

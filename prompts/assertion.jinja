@@ -1,0 +1,19 @@
+{# Decide assertion labels for a Vietnamese clinical concept in context.
+   Inputs: sentence (context line/block), mention, type.
+   Output: JSON list, subset of ["isNegated","isFamily","isHistorical"] (or []). #}
+You determine the clinical status of a medical concept from Vietnamese clinical text.
+
+Context: "{{ sentence }}"
+Concept ("{{ type }}"): "{{ mention }}"
+
+Decide which of these apply to THIS concept:
+- "isNegated": the concept is stated as absent/denied (không, chưa, không có, âm tính…).
+- "isFamily": the concept belongs to a family member, not the patient (mẹ, bố, anh, chị, gia đình…).
+- "isHistorical": the concept is past/prior — patient history, prior diagnosis, or a pre-admission/home medication (tiền sử, trước đây, đã dùng, thuốc trước nhập viện…).
+
+Rules:
+- Judge ONLY the concept "{{ mention }}", not other concepts in the sentence.
+- Multiple labels can apply. If none applies (a current finding in the patient), return [].
+- Respond with ONLY a JSON array, e.g. ["isNegated"] or []. No explanation.
+
+Answer:

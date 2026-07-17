@@ -1,0 +1,44 @@
+[
+  {
+    "text": "viêm dạ dày cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K29.0"
+    ],
+    "assertions": [],
+    "position": [
+      11,
+      26
+    ]
+  },
+  {
+    "text": "đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      38,
+      51
+    ]
+  },
+  {
+    "text": "nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      55,
+      58
+    ]
+  },
+  {
+    "text": "omeprazole 20 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "402014"
+    ],
+    "assertions": [],
+    "position": [
+      63,
+      88
+    ]
+  }
+]

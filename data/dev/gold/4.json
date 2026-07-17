@@ -1,0 +1,130 @@
+[
+  {
+    "text": "WBC",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      56,
+      59
+    ]
+  },
+  {
+    "text": "14,43",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      61,
+      66
+    ]
+  },
+  {
+    "text": "NEUT% (Tỷ lệ % bạch cầu trung tính)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      68,
+      103
+    ]
+  },
+  {
+    "text": "76,4",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      105,
+      109
+    ]
+  },
+  {
+    "text": "LYPH% (Tỷ lệ bạch cầu lympho)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      111,
+      140
+    ]
+  },
+  {
+    "text": "12,8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      142,
+      146
+    ]
+  },
+  {
+    "text": "HGB",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      148,
+      151
+    ]
+  },
+  {
+    "text": "9,8",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      153,
+      156
+    ]
+  },
+  {
+    "text": "PLT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      158,
+      161
+    ]
+  },
+  {
+    "text": "410",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      163,
+      166
+    ]
+  },
+  {
+    "text": "Glucose",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      178,
+      185
+    ]
+  },
+  {
+    "text": "8,9 mmol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      187,
+      197
+    ]
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      199,
+      208
+    ]
+  },
+  {
+    "text": "118 umol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      210,
+      220
+    ]
+  },
+  {
+    "text": "Kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      222,
+      226
+    ]
+  },
+  {
+    "text": "3,1 mmol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      228,
+      238
+    ]
+  }
+]

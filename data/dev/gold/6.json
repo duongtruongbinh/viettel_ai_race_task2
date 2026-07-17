@@ -1,0 +1,79 @@
+[
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      42,
+      44
+    ]
+  },
+  {
+    "text": "tức ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      46,
+      54
+    ]
+  },
+  {
+    "text": "đau thượng vị",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      56,
+      69
+    ]
+  },
+  {
+    "text": "ợ hơi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      71,
+      76
+    ]
+  },
+  {
+    "text": "bệnh trào ngược dạ dày - thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K21.0",
+      "K21.9"
+    ],
+    "assertions": [],
+    "position": [
+      97,
+      131
+    ]
+  },
+  {
+    "text": "Chlorpheniramine 0.4 MG/ML",
+    "type": "THUỐC",
+    "candidates": [
+      "360047"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      162,
+      188
+    ]
+  },
+  {
+    "text": "Capsaicin 0.38 MG/ML",
+    "type": "THUỐC",
+    "candidates": [
+      "1660761"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      190,
+      210
+    ]
+  }
+]

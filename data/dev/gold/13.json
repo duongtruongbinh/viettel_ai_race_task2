@@ -1,0 +1,81 @@
+[
+  {
+    "text": "Chụp X-quang ngực",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      0,
+      17
+    ]
+  },
+  {
+    "text": "bóng tim to",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      19,
+      30
+    ]
+  },
+  {
+    "text": "Siêu âm bụng",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      67,
+      79
+    ]
+  },
+  {
+    "text": "gan nhiễm mỡ độ 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K76.0"
+    ],
+    "assertions": [],
+    "position": [
+      81,
+      98
+    ]
+  },
+  {
+    "text": "sỏi túi mật",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K80.2"
+    ],
+    "assertions": [],
+    "position": [
+      100,
+      111
+    ]
+  },
+  {
+    "text": "CT sọ não không cản quang",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      128,
+      153
+    ]
+  },
+  {
+    "text": "xuất huyết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      161,
+      171
+    ]
+  },
+  {
+    "text": "nhồi máu mới",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      179,
+      191
+    ]
+  }
+]

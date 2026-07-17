@@ -1,0 +1,99 @@
+[
+  {
+    "text": "đái tháo đường type 2",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "E11.9"
+    ],
+    "assertions": [],
+    "position": [
+      10,
+      31
+    ]
+  },
+  {
+    "text": "tê bì hai bàn chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      61,
+      79
+    ]
+  },
+  {
+    "text": "tiểu nhiều về đêm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      83,
+      100
+    ]
+  },
+  {
+    "text": "metformin 500 mg po bid",
+    "type": "THUỐC",
+    "candidates": [
+      "861007"
+    ],
+    "assertions": [],
+    "position": [
+      112,
+      135
+    ]
+  },
+  {
+    "text": "insulin glargine",
+    "type": "THUỐC",
+    "candidates": [
+      "274783"
+    ],
+    "assertions": [],
+    "position": [
+      139,
+      155
+    ]
+  },
+  {
+    "text": "HbA1c",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      179,
+      184
+    ]
+  },
+  {
+    "text": "8,7%",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      186,
+      190
+    ]
+  },
+  {
+    "text": "Glucose đói",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      192,
+      203
+    ]
+  },
+  {
+    "text": "9,2 mmol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      205,
+      215
+    ]
+  },
+  {
+    "text": "hạ đường huyết",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      223,
+      237
+    ]
+  }
+]

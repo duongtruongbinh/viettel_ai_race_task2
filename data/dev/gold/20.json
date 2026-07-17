@@ -1,0 +1,70 @@
+[
+  {
+    "text": "đau bụng quanh rốn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      22,
+      40
+    ]
+  },
+  {
+    "text": "khu trú hố chậu phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      45,
+      65
+    ]
+  },
+  {
+    "text": "sốt nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      71,
+      78
+    ]
+  },
+  {
+    "text": "buồn nôn",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      82,
+      90
+    ]
+  },
+  {
+    "text": "Ấn điểm McBurney đau",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      92,
+      112
+    ]
+  },
+  {
+    "text": "viêm ruột thừa cấp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K35.8"
+    ],
+    "assertions": [],
+    "position": [
+      125,
+      143
+    ]
+  },
+  {
+    "text": "tiêu chảy",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      194,
+      203
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+# Downloaded knowledge-base sources (large, re-downloadable)
+data/kb/raw/
+data/kb/processed/
+
+# Synthetic / generated training data
+data/synthetic/
+
+# Model weights & indexes
+models/
+
+# Generated submission outputs
+submission/*/*.json
+submission/*/*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+.ipynb_checkpoints/
+data/synthetic/
+
+# local test-set symlink (not shipped)
+data/input

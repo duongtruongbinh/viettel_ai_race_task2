@@ -1,0 +1,74 @@
+[
+  {
+    "text": "ho đờm xanh",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      30,
+      41
+    ]
+  },
+  {
+    "text": "tức ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      43,
+      51
+    ]
+  },
+  {
+    "text": "sốt cao 39 độ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      53,
+      66
+    ]
+  },
+  {
+    "text": "khó thở khi gắng sức",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      68,
+      88
+    ]
+  },
+  {
+    "text": "viêm phổi cộng đồng thùy dưới phải",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J18.1"
+    ],
+    "assertions": [],
+    "position": [
+      101,
+      135
+    ]
+  },
+  {
+    "text": "azithromycin 250 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "308460"
+    ],
+    "assertions": [],
+    "position": [
+      147,
+      175
+    ]
+  },
+  {
+    "text": "acetaminophen 500 mg",
+    "type": "THUỐC",
+    "candidates": [
+      "198440"
+    ],
+    "assertions": [],
+    "position": [
+      179,
+      199
+    ]
+  }
+]

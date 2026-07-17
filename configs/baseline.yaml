@@ -1,0 +1,36 @@
+# Baseline: GLiNER zero-shot NER + ConText rule assertions + SapBERT/FAISS
+# dictionary linking. No training, no LLM. Runs on a free Colab T4 (and on CPU).
+solution: baseline
+seed: 42
+
+kb:
+  sapbert_model: cambridgeltl/SapBERT-UMLS-2020AB-all-lang-from-XLMR
+  device: auto            # auto | cpu | cuda:N | wait
+
+ner:
+  model: urchade/gliner_multi-v2.1
+  threshold: 0.35         # recall regime: ~15 concepts/file is the scoring sweet spot
+  max_chunk_chars: 800
+  # descriptive English labels generalise best in GLiNER -> canonical Task-2 type
+  label_map:
+    "symptom": "TRIỆU_CHỨNG"
+    "disease or diagnosis": "CHẨN_ĐOÁN"
+    "medication or drug": "THUỐC"
+    "medical test or lab name": "TÊN_XÉT_NGHIỆM"
+    "test result or measurement value": "KẾT_QUẢ_XÉT_NGHIỆM"
+
+assertions:
+  neg_window_chars: 60
+  block_lookback_lines: 6
+
+normalization:
+  top_k: 10
+  strip_drug_noise: true          # drop route/frequency from drug mentions, keep strength
+  max_candidates:                 # candidates score is a Jaccard -> keep caps low (precision)
+    ICD10: 2
+    RXNORM: 1
+  cutoffs:                        # Vietnamese<->Vietnamese ICD needs a lower similarity bar
+    ICD10: 0.55
+    RXNORM: 0.75
+  filter_tty:                     # gold RxNorm codes are strength-specific clinical drugs
+    RXNORM: ["SCD"]

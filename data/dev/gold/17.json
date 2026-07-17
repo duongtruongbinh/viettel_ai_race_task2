@@ -1,0 +1,118 @@
+[
+  {
+    "text": "bệnh thận mạn giai đoạn 3",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N18.3"
+    ],
+    "assertions": [],
+    "position": [
+      10,
+      35
+    ]
+  },
+  {
+    "text": "Phù hai chân",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      46,
+      58
+    ]
+  },
+  {
+    "text": "mệt mỏi",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      60,
+      67
+    ]
+  },
+  {
+    "text": "Ure",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      69,
+      72
+    ]
+  },
+  {
+    "text": "12,4 mmol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      74,
+      85
+    ]
+  },
+  {
+    "text": "Creatinin",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      87,
+      96
+    ]
+  },
+  {
+    "text": "210 umol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      98,
+      108
+    ]
+  },
+  {
+    "text": "eGFR",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      110,
+      114
+    ]
+  },
+  {
+    "text": "34",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      116,
+      118
+    ]
+  },
+  {
+    "text": "Kali",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      120,
+      124
+    ]
+  },
+  {
+    "text": "5,6 mmol/L",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "position": [
+      126,
+      136
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      144,
+      151
+    ]
+  },
+  {
+    "text": "đau ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      159,
+      167
+    ]
+  }
+]

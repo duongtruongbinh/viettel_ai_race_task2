@@ -1,0 +1,62 @@
+[
+  {
+    "text": "tiểu buốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      21,
+      30
+    ]
+  },
+  {
+    "text": "tiểu rắt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      32,
+      40
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      42,
+      45
+    ]
+  },
+  {
+    "text": "đau góc sườn lưng phải",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      53,
+      75
+    ]
+  },
+  {
+    "text": "nhiễm khuẩn tiết niệu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "N39.0"
+    ],
+    "assertions": [],
+    "position": [
+      88,
+      109
+    ]
+  },
+  {
+    "text": "ciprofloxacin 500 mg po bid",
+    "type": "THUỐC",
+    "candidates": [
+      "309309"
+    ],
+    "assertions": [],
+    "position": [
+      114,
+      141
+    ]
+  }
+]

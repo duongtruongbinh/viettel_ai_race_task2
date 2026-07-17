@@ -1,0 +1,4 @@
+Kết quả tổng phân tích tế bào máu bằng máy laser (tbm):
+WBC: 14,43; NEUT% (Tỷ lệ % bạch cầu trung tính): 76,4;
+LYPH% (Tỷ lệ bạch cầu lympho): 12,8; HGB: 9,8; PLT: 410.
+Sinh hóa: Glucose: 8,9 mmol/L; Creatinin: 118 umol/L; Kali: 3,1 mmol/L.

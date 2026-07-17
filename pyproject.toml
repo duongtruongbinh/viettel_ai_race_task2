@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medextract"
+version = "0.1.0"
+description = "Vietnamese clinical concept extraction + ICD-10/RxNorm linking (AI Race 2026, Task 2)"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+medextract = ["py.typed"]

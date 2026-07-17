@@ -1,0 +1,30 @@
+# Core NLP / ML
+torch==2.9.1
+transformers==5.5.4
+tokenizers==0.22.2
+safetensors==0.7.0
+accelerate==1.14.0
+sentence-transformers==5.6.0
+gliner==0.2.27               # zero-shot NER (baseline)
+faiss-cpu==1.14.3            # KB nearest-neighbor index
+bitsandbytes==0.49.2        # 4-bit LLM load (improved tier, free-Colab GPU)
+
+# Data / config
+numpy==1.26.4
+pandas==2.3.3
+pyarrow==23.0.0             # parquet KB term tables
+PyYAML==6.0.3
+Jinja2==3.1.6              # LLM prompt templates
+openpyxl==3.1.5           # read the ICD-10 .xlsx source
+xlrd==2.0.2               # read the older .xls ICD source
+
+# Scoring
+jiwer==4.0.0             # word error rate
+
+# Tests
+pytest==8.4.2
+
+# Optional API demo (serve.py)
+fastapi==0.136.1
+uvicorn==0.40.0
+pydantic==2.13.4

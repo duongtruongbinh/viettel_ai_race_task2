@@ -1,0 +1,84 @@
+[
+  {
+    "text": "bệnh phổi tắc nghẽn mạn tính",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J44.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      20,
+      48
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      58,
+      65
+    ]
+  },
+  {
+    "text": "ho khạc đờm mủ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      84,
+      98
+    ]
+  },
+  {
+    "text": "sốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      106,
+      109
+    ]
+  },
+  {
+    "text": "hen phế quản",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "J45.9"
+    ],
+    "assertions": [
+      "isFamily",
+      "isHistorical"
+    ],
+    "position": [
+      126,
+      138
+    ]
+  },
+  {
+    "text": "salbutamol 2.5 mg",
+    "type": "THUỐC",
+    "candidates": [
+      "630208"
+    ],
+    "assertions": [],
+    "position": [
+      153,
+      170
+    ]
+  },
+  {
+    "text": "prednisolone 40 mg",
+    "type": "THUỐC",
+    "candidates": [
+      "8638"
+    ],
+    "assertions": [],
+    "position": [
+      174,
+      192
+    ]
+  }
+]

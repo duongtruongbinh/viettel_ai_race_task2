@@ -1,0 +1,33 @@
+{# Pick the best ontology code(s) for a Vietnamese clinical mention.
+   Inputs: mention, sentence (context), kb, candidates [{code,name}], max_codes.
+   Output: JSON list of chosen codes, a subset of the given codes (or []). #}
+You are an expert medical coder. Choose the ontology code(s) that best match the clinical mention, using the surrounding sentence for context.
+
+Sentence: "{{ sentence }}"
+Mention to code: "{{ mention }}"
+Coding system: {{ kb }}
+
+Candidates (choose ONLY from these codes):
+{% for c in candidates %}
+- {{ c.code }} : {{ c.name }}
+{% endfor %}
+
+{% if kb == "ICD10" %}
+ICD-10 rules:
+- Pick the SINGLE best code unless the mention clearly names two distinct diagnoses.
+- Prefer a SPECIFIC sub-code (with a decimal, e.g. E11.9) over the bare 3-character
+  category (e.g. E11) — a category code alone is almost never the intended answer.
+- If the mention does NOT state a complication/severity, choose the "unspecified"
+  / "not otherwise specified" sub-code (usually the one ending in .9), NOT a
+  complication-specific code. Only pick a complication code if the sentence names
+  that complication (e.g. ketoacidosis, nephropathy, a specific stage/grade).
+{% else %}
+RxNorm rules:
+- Match the active ingredient AND the strength, and prefer the plain oral tablet /
+  standard form matching the mention. Pick the single closest code.
+{% endif %}
+- Choose ONLY codes from the list above. If none is a good match, return [].
+- Return at most {{ max_codes }} code(s), best first.
+- Respond with ONLY a JSON array of code strings, e.g. ["{{ candidates[0].code if candidates else 'X' }}"]. No explanation.
+
+Answer:

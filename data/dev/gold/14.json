@@ -1,0 +1,81 @@
+[
+  {
+    "text": "rung nhĩ mạn",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I48.2"
+    ],
+    "assertions": [],
+    "position": [
+      10,
+      22
+    ]
+  },
+  {
+    "text": "hồi hộp trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      43,
+      61
+    ]
+  },
+  {
+    "text": "choáng váng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      63,
+      74
+    ]
+  },
+  {
+    "text": "đột quỵ nhồi máu não",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I63.9"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      84,
+      104
+    ]
+  },
+  {
+    "text": "apixaban 5 mg po bid",
+    "type": "THUỐC",
+    "candidates": [
+      "1364445"
+    ],
+    "assertions": [],
+    "position": [
+      127,
+      147
+    ]
+  },
+  {
+    "text": "digoxin 0.125 mg po daily",
+    "type": "THUỐC",
+    "candidates": [
+      "197604"
+    ],
+    "assertions": [],
+    "position": [
+      151,
+      176
+    ]
+  },
+  {
+    "text": "chảy máu bất thường",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      184,
+      203
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "text": "đánh trống ngực",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      22,
+      37
+    ]
+  },
+  {
+    "text": "khó thở nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      41,
+      52
+    ]
+  },
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I10"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      62,
+      75
+    ]
+  },
+  {
+    "text": "metoprolol 25mg po bid",
+    "type": "THUỐC",
+    "candidates": [
+      "866924"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      115,
+      137
+    ]
+  },
+  {
+    "text": "ngoại tâm thu nhĩ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      185,
+      202
+    ]
+  },
+  {
+    "text": "ngoại tâm thu thất",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      206,
+      224
+    ]
+  },
+  {
+    "text": "rối loạn nhịp tim",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "I49.9"
+    ],
+    "assertions": [],
+    "position": [
+      246,
+      263
+    ]
+  },
+  {
+    "text": "ECG",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "position": [
+      265,
+      268
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "text": "xơ gan do rượu",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K70.3"
+    ],
+    "assertions": [
+      "isHistorical"
+    ],
+    "position": [
+      18,
+      32
+    ]
+  },
+  {
+    "text": "hội chứng não gan",
+    "type": "CHẨN_ĐOÁN",
+    "candidates": [
+      "K72.9"
+    ],
+    "assertions": [],
+    "position": [
+      117,
+      134
+    ]
+  },
+  {
+    "text": "ý thức suy giảm",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "position": [
+      147,
+      162
+    ]
+  },
+  {
+    "text": "xuất huyết tiêu hóa",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "position": [
+      220,
+      239
+    ]
+  }
+]
